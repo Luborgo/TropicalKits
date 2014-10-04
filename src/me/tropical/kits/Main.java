@@ -1,11 +1,15 @@
 package me.tropical.kits;
 
 import java.util.logging.Logger;
+
 import org.bukkit.ChatColor;
+import org.bukkit.Material;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 import org.bukkit.event.Listener;
+import org.bukkit.inventory.ItemStack;
+import org.bukkit.inventory.PlayerInventory;
 import org.bukkit.plugin.PluginDescriptionFile;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -41,7 +45,9 @@ public class Main extends JavaPlugin
       
       if(args[0].equalsIgnoreCase("noob")){
        player.sendMessage("§aRecebendo kit noob!");
-       //TODO: Kit NB
+       PlayerInventory PI = player.getInventory();
+       PI.addItem(new ItemStack(Material.IRON_PICKAXE, 1)); /* Picareta De Ferro Basica */
+       PI.addItem(new ItemStack(Material.GOLDEN_APPLE, 1, (short) 1)); /* Maça Dourada Encantada */
       }
       
       if(args[0].equalsIgnoreCase("pvp")){
