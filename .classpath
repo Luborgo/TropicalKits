@@ -2,6 +2,11 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
-	<classpathentry kind="lib" path="C:/Users/Luis Borrego/Desktop/bukkit-1.7.2-R0.3.jar"/>
+	<classpathentry kind="lib" path="E:/Eclipse/Default_JRE/BarAPI.jar"/>
+	<classpathentry kind="lib" path="E:/Eclipse/Default_JRE/BungeeCord.jar"/>
+	<classpathentry kind="lib" path="E:/Eclipse/Default_JRE/NametagEdit.jar"/>
+	<classpathentry kind="lib" path="E:/Eclipse/Default_JRE/PointsAPI.jar"/>
+	<classpathentry kind="lib" path="E:/Eclipse/Default_JRE/SpigotMC.jar"/>
+	<classpathentry kind="lib" path="E:/Eclipse/Default_JRE/Vault-1.4.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
