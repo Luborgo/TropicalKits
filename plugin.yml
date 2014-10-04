@@ -1,0 +1,12 @@
+name: TripicalKits
+main: me.tropical.kits.Main
+version: 1.0
+description: >
+             Plugin Para O Servidor TropicalPT.
+commands:
+  kit:
+    description: Plugin de kits.
+  receber:
+    description: Plugin de kits.
+  tropicalkit-reload:
+    description: A riniciar o plugins.
